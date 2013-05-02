@@ -11,6 +11,9 @@ module HighlyDivisibleTriangularNumber
   def self.find_triangular_number(i,limit)
     until self.divisor_count(self.triangular_number_at(i)) > 500
       i+=1
+      until self.triangular_number_at(i).even?
+        i+=1
+      end
     end 
     self.triangular_number_at(i)
   end
