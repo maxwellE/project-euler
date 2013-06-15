@@ -1,5 +1,7 @@
 *.fasl
 *.*~
+*.hi
+*.o
 *.*#
 *.swp
 dist
