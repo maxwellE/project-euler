@@ -2,3 +2,15 @@
 *.*~
 *.*#
 *.swp
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
